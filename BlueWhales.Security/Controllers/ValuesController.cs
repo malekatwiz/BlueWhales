@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlueWhales.Security.Controllers
@@ -14,7 +11,7 @@ namespace BlueWhales.Security.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new[] { "value1", "value2" };
         }
 
         // GET api/values/5
@@ -40,6 +37,17 @@ namespace BlueWhales.Security.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+
+        [HttpPost]
+        [Route("greeting")]
+        public IActionResult Greeting([FromBody]string message)
+        {
+            if (!string.IsNullOrEmpty(message))
+            {
+                return Ok("Acknowleged");
+            }
+            return BadRequest();
         }
     }
 }
