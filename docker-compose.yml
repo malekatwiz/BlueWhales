@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bluewhales.security:
+    image: ${DOCKER_REGISTRY}bluewhalessecurity
+    build:
+      context: .
+      dockerfile: BlueWhales.Security\Dockerfile
