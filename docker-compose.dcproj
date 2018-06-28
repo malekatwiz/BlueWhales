@@ -6,7 +6,7 @@
     <ProjectGuid>ce43ba47-8f71-4ed6-a22c-78b484629cde</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://{ServiceIPAddress}{ServicePort}/api/values</DockerServiceUrl>
-    <DockerServiceName>bluewhales.security</DockerServiceName>
+    <DockerServiceName>bluewhales.main</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueWhales.Security", "BlueWhales.Security\BlueWhales.Security.csproj", "{50C91F64-9F9A-47F1-BE6D-6E3B4D9AD1E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueWhales.Security", "BlueWhales.Security\BlueWhales.Security.csproj", "{50C91F64-9F9A-47F1-BE6D-6E3B4D9AD1E8}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CE43BA47-8F71-4ED6-A22C-78B484629CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueWhales.Main", "..\BlueWhales.Main\BlueWhales.Main.csproj", "{A69A4CCE-4666-44D8-B0A2-EEE3CAE90F1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CE43BA47-8F71-4ED6-A22C-78B484629CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE43BA47-8F71-4ED6-A22C-78B484629CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE43BA47-8F71-4ED6-A22C-78B484629CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69A4CCE-4666-44D8-B0A2-EEE3CAE90F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69A4CCE-4666-44D8-B0A2-EEE3CAE90F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69A4CCE-4666-44D8-B0A2-EEE3CAE90F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69A4CCE-4666-44D8-B0A2-EEE3CAE90F1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
